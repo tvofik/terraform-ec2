@@ -22,7 +22,7 @@ variable "subnet_id" {
   type = string
   description = "Subnet to deploy your terraform code"
 }
-variable "count" {
+variable "number" {
   type = number
   description = "Amount of instance to launch"
 }

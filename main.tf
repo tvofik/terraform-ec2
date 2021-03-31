@@ -7,7 +7,7 @@ module "ec2-instance" {
   version = "2.17.0"
 
   name                   = var.name
-  instance_count         = var.count
+  instance_count         = var.number
 
   ami                    = var.ami
   instance_type          = var.instance_type
