@@ -6,7 +6,7 @@ variable "name" {
 
 variable "security_group_ids" {
   type = string
-  description = " Secuirty group to attach to the instance"
+  description = "Secuirty group to attach to the instance"
 }
 
 variable "ami" {
@@ -29,6 +29,7 @@ variable "number" {
   description = "Amount of instance to launch"
   default = 2
 }
+
 variable "key_name" {
   type = string
   description = "Amount of instance to launch"
