@@ -1,6 +1,7 @@
 variable "name" {
   type = string
   description = "Name of instance"
+  default = "Cluster"
 }
 
 variable "security_group_ids" {
@@ -25,4 +26,5 @@ variable "subnet_id" {
 variable "number" {
   type = number
   description = "Amount of instance to launch"
+  default = 2
 }
