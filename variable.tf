@@ -21,8 +21,9 @@ variable "instance_type" {
 
 variable "subnet_id" {
   type = string
-  description = "Subnet to deploy your terraform code"
+  description = "Subnet to deploy your instance"
 }
+
 variable "number" {
   type = number
   description = "Amount of instance to launch"
