@@ -5,7 +5,7 @@ variable "name" {
 }
 
 variable "security_group_ids" {
-  type = list
+  type = string
   description = " Secuirty group to attach to the instance"
 }
 

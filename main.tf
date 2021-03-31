@@ -12,7 +12,7 @@ module "ec2-instance" {
   instance_type          = var.instance_type
   key_name               = var.key_name
   # monitoring             = true
-  vpc_security_group_ids = var.security_group_ids
+  vpc_security_group_ids = [var.security_group_ids]
   subnet_id              = var.subnet_id
 
   tags = {
